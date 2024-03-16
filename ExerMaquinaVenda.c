@@ -57,7 +57,7 @@ int main(int argc, char const *argv[])
         i01++;
     }
 
-    printf("%d\n %d\n %d\n %d\n %d\n %d\n", i500, i100, i50, i10, i05, i01);
+    printf(" %d\n %d\n %d\n %d\n %d\n %d\n", i500, i100, i50, i10, i05, i01);
 
 return 0;
 }
