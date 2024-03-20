@@ -2,10 +2,11 @@
 
 int main(int argc, char const *argv[])
 {
-    int i = 98;
+    int i = -2;
 
-    printf("% d", i);
-
-}
+    if (i<0);
+    {
+        printf("aogar \n");
+    }
     return 0;
-
+}
