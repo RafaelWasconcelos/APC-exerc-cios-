@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main()
 {
-    unsigned int hora, minuto, segundo;
-    printf("Digite um valor númerico para hora maior ou igual a 0\n");
-    scanf("%u", &hora);
+    unsigned long long int hora, segundo, minuto;
+    scanf("%llu", &hora);
     minuto = 60*hora;
     segundo = 60*minuto;
-    printf("%u\n%u\n", minuto, segundo);
+    printf("%llu\n%llu\n", minuto, segundo);
 
     return 0;
 }

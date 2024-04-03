@@ -7,7 +7,6 @@ int main ()
 
     do
     {
-        printf("A VS B\nA:");
         scanf("%d%d%d", &E, &J1, &J2);
     }
     while (((E>1) || (E<0)) || ((J1>10) || (J2>10)) || ((J1<0) || (J2<0)));
@@ -25,7 +24,6 @@ int main ()
 
      do
      {
-        printf("C VS D\nC:");
         scanf("%d%d%d", &E, &J1, &J2);
      }
     while (((E>1) || (E<0)) || ((J1>10) || (J2>10)) || ((J1<0) || (J2<0)));
@@ -42,8 +40,7 @@ int main ()
         }
     
     do
-     {
-        printf("%c vs %c\n%c:", V1, V2, V1);
+     {;
         scanf("%d%d%d", &E, &J1, &J2);
      }
     while (((E>1) || (E<0)) || ((J1>10) || (J2>10)) || ((J1<0) || (J2<0)));

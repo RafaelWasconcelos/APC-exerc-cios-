@@ -4,13 +4,9 @@ int main()
 {
 
         int A,B,C; 
+        char vencedor;
 
-        printf("Zerinho ou um?\n");
-        scanf("%d", &A);
-        printf("Zerinho ou um?\n");
-        scanf("%d", &B);
-        printf("Zerinho ou um?\n");
-        scanf("%d", &C);
+        scanf("%d%d%D", &A,&B,&C);
 
         if ((A==B) && (B!=C))
         {
@@ -25,7 +21,7 @@ int main()
             printf("A\n");
         }
         else
-            printf("empate");
+            printf("empate\n");
 
 
 
