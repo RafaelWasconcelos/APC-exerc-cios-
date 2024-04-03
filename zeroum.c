@@ -4,9 +4,8 @@ int main()
 {
 
         int A,B,C; 
-        char vencedor;
 
-        scanf("%d%d%D", &A,&B,&C);
+        scanf("%d%d%d", &A,&B,&C);
 
         if ((A==B) && (B!=C))
         {

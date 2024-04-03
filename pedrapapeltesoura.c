@@ -88,18 +88,13 @@ int main ()
                 vencedor='A';
             }
         }
-        else
+        if (valor==valor2)
         {
             printf("empate\n");
         }
 
     printf("%c\n",vencedor);
     
-
-    
-
-
-
 
     return 0;
 }
