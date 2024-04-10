@@ -2,9 +2,6 @@ int main()
 {
     int numero,somatorio,resultado,a,b,c,d,e,f;
 
-    do
-    {
-    
 
         scanf("%d", &numero);
         f =numero%10;
@@ -17,7 +14,7 @@ int main()
         
         somatorio = (2*f + 3*e +4*d + 5*c + 6*b +7*a);
         resultado = (11-somatorio%11);
-    } while ((numero>999998)||(numero<1));
+
     printf("%d\n",resultado);
 
 
