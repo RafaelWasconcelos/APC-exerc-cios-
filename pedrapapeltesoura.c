@@ -4,10 +4,9 @@ int main ()
     char vencedor;
 
     
-        do 
-        {
-            scanf("%d%d",&valor,&valor2);
-        }while ((valor<0)||(valor>4)||(valor2<0)||(valor2>4));
+        
+       scanf("%d%d",&valor,&valor2);
+
 
         if(valor==0)
         {
@@ -15,11 +14,11 @@ int main ()
             {
                 vencedor='B';
             }
-            if(valor2==4)
+            else if(valor2==4)
             {
                 vencedor= 'B';
             }
-            if ((valor2!=1)&&(valor2!=4)&&(valor2!=0))
+            else if ((valor2!=0))
             {
                 vencedor ='A';
             }
@@ -31,11 +30,11 @@ int main ()
             {
                 vencedor = 'B';
             }
-            if(valor2==3)
+            else if(valor2==3)
             {
                 vencedor= 'B';
             }
-            if ((valor2!=2) && (valor2!=3) && (valor2!=1)) 
+            else if ((valor2!=1)) 
             {
                 vencedor ='A';
             }   
@@ -47,11 +46,11 @@ int main ()
             {
                 vencedor='B';
             }
-            if(valor2==4)
+            else if(valor2==4)
             {
                 vencedor='B';
             }
-            if ((valor2!=0)&&(valor2!=4)&&(valor2!=2))
+            else if ((valor2!=2))
             {
                 vencedor='A';
             }
@@ -63,11 +62,11 @@ int main ()
             {
                 vencedor='B';
             }
-            if(valor2==2)
+            else if(valor2==2)
             {
                 vencedor='B';
             }
-            if ((valor2!=0)&&(valor2!=2)&&(valor2!=3))
+            else if ((valor2!=3))
             {
                 vencedor='A';
             }
@@ -79,11 +78,11 @@ int main ()
             {
                 vencedor='B';
             }
-            if(valor2==3)
+            else if(valor2==3)
             {
                 vencedor='B';
             }
-            if ((valor2!=1)&&(valor2!=3)&&(valor2!=4))
+            else if ((valor2!=4))
             {
                 vencedor='A';
             }
@@ -93,7 +92,7 @@ int main ()
             printf("empate\n");
         }
 
-    printf("%c\n",vencedor);
+    printf("%c",vencedor);
     
 
     return 0;
