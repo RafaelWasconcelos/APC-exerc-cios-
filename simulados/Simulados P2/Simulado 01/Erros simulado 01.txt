@@ -1,0 +1,6 @@
+erros do simulado 01
+
+
+-Corrigir o código com a mesma coisa que não está dando resultado
+-Mais atenção aos detalhes
+-Usar fgets para frases com string
